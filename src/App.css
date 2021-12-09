@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tarinoita,
+.ehdot,
+.kartta,
+.videot {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  color: #252e48;
+}
+
+.kalusto {
+  color: #252e48;
+  font-size: 6rem;
+}
+
+.info-container,
+.hinnasto-container,
+.yhteys-container {
+  background: url("./images/rengas.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  color: #fff;
+  font-size: 3rem;
+  margin-top: -1px;
+}
+
+.info-teksti {
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.yht-teksti {
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  float: left;
+}
+
+.varaa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #252e48;
+}
+
+.varaa > h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.varaa > p {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.varaa-text {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.varaa-input {
+  padding: 8px 20px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+
+.varaa-input::placeholder {
+  color: #cccccc;
+}
+
+.form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.varaa-container {
+  padding: 20px;
+}
+
+.bike {
+  padding: 4rem;
+  background: #fff;
+}
+
+.bike > h1 {
+  text-align: center;
+  margin-bottom: 20;
+}
+
+.bike > p {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+.vahvistus-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.vahvistus-container > h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.vahvistus-container > p {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+.kuva {
+  display: block;
+  width: 50%;
+  max-width: 100%;
+  height: 50%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+  float: left;
+}
